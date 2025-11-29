@@ -6,43 +6,46 @@ const categories = ["All", "Content Creation", "Strategy", "Campaigns"];
 const projects = [
   {
     id: 1,
-    title: "Lumina Skincare",
+    title: "Oriflame",
     category: "Content Creation",
     image:
       "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=1974&auto=format&fit=crop",
     description:
       "Product photography and reel creation for a luxury skincare brand launch.",
-    companyUrl: "#",
-    logo: "https://ui-avatars.com/api/?name=Lumina+Skincare&background=fff&color=000",
+    companyUrl: "https://ng.oriflame.com/",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQczszzzIGT5OwoXGGo5_hXdyB5n3ZIoU7Iug&s",
   },
   {
     id: 2,
-    title: "Urban Coffee Co.",
+    title: "SafariBrew",
     category: "Strategy",
     image:
-      "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=2071&auto=format&fit=crop",
+      // "public/images/Screenshot 2025-11-29 104302.png",
+      "public/images/WhatsApp Image 2025-11-23 at 8.09.34 PM.jpeg",
+      // "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=2071&auto=format&fit=crop",
     description: "Rebranding strategy and community growth campaign.",
-    companyUrl: "#",
-    logo: "https://ui-avatars.com/api/?name=Urban+Coffee&background=fff&color=000",
+    companyUrl: "https://safaribrew.com/",
+    logo: "https://safaribrew.com/wp-content/uploads/2025/06/safaribrew-logo-3.png.webp",
   },
   {
     id: 3,
-    title: "TechStart Summit",
+    title: "Dev Fest Lagos",
     category: "Campaigns",
     image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
+      "https://blog.seerbit.com/hs-fs/hubfs/devfest%20day10466.jpg?width=2048&height=1365&name=devfest%20day10466.jpg",
+      // "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
     description: "Event coverage and live social media management.",
-    companyUrl: "#",
-    logo: "https://ui-avatars.com/api/?name=TechStart&background=fff&color=000",
+    companyUrl: "https://devfestlagos.com/",
+    logo: "https://images.seeklogo.com/logo-png/39/1/google-developers-logo-png_seeklogo-394547.png",
   },
   {
     id: 4,
     title: "Rosa Mystica",
     category: "Content Creation",
     image: "public/images/Screenshot 2025-11-29 091658.png",
-    description: "Interior design showcase series for Instagram and Pinterest.",
-    companyUrl: "#",
-    logo: "https://ui-avatars.com/api/?name=Rosa+Mystica&background=fff&color=000",
+    description: "Pictures and clips showcase series for Website, Instagram and Facebook",
+    companyUrl: "https://www.rmhsagulu.com/",
+    logo: "https://www.rmhsagulu.com/images/RMHS.jpg",
   },
   {
     id: 5,
@@ -51,19 +54,19 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2070&auto=format&fit=crop",
     description: "Influencer marketing campaign management.",
-    companyUrl: "#",
-    logo: "https://ui-avatars.com/api/?name=FitLife&background=fff&color=000",
+    companyUrl: "https://www.fitlife.co.uk/",
+    logo: "https://play-lh.googleusercontent.com/788pZQ55Qz22PvOnyfUGZEc85dpzK7aIolkgFXLo30kjbwuO4wTTIgYzXRxgGjmKyw=w240-h480-rw",
   },
-  {
-    id: 6,
-    title: "Green Earth NGO",
-    category: "Strategy",
-    image:
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb7d5763?q=80&w=2069&auto=format&fit=crop",
-    description: "Awareness campaign and donation drive strategy.",
-    companyUrl: "#",
-    logo: "https://ui-avatars.com/api/?name=Green+Earth&background=fff&color=000",
-  },
+  // {
+  //   id: 6,
+  //   title: "Green Earth NGO",
+  //   category: "Strategy",
+  //   image:
+  //     "https://images.unsplash.com/photo-1542601906990-b4d3fb7d5763?q=80&w=2069&auto=format&fit=crop",
+  //   description: "Awareness campaign and donation drive strategy.",
+  //   companyUrl: "#",
+  //   logo: "https://ui-avatars.com/api/?name=Green+Earth&background=fff&color=000",
+  // },
 ];
 
 const Portfolio = () => {
