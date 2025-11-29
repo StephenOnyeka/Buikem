@@ -35,7 +35,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="#"
+                href="https://x.com/Rexnn3"
                 className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-white hover:text-black transition-all"
               >
                 <Twitter size={20} />

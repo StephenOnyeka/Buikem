@@ -57,16 +57,6 @@ const projects = [
     companyUrl: "https://www.fitlife.co.uk/",
     logo: "https://play-lh.googleusercontent.com/788pZQ55Qz22PvOnyfUGZEc85dpzK7aIolkgFXLo30kjbwuO4wTTIgYzXRxgGjmKyw=w240-h480-rw",
   },
-  // {
-  //   id: 6,
-  //   title: "Green Earth NGO",
-  //   category: "Strategy",
-  //   image:
-  //     "https://images.unsplash.com/photo-1542601906990-b4d3fb7d5763?q=80&w=2069&auto=format&fit=crop",
-  //   description: "Awareness campaign and donation drive strategy.",
-  //   companyUrl: "#",
-  //   logo: "https://ui-avatars.com/api/?name=Green+Earth&background=fff&color=000",
-  // },
 ];
 
 const Portfolio = () => {
