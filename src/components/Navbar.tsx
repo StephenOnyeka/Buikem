@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X, Instagram, Linkedin, Mail } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -19,7 +19,6 @@ const Navbar = () => {
     { name: "Portfolio", href: "#portfolio" },
     { name: "About", href: "#about" },
     { name: "Testimonials", href: "#testimonials" },
-    { name: "Contact", href: "#contact" },
   ];
 
   return (
