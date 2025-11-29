@@ -15,7 +15,7 @@ const About = () => {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden">
               <img
-                src="public/images/PSX_20251129_055436.jpg"
+                src="/images/PSX_20251129_055436.jpg"
                 alt="Social Media Manager"
                 className="w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
