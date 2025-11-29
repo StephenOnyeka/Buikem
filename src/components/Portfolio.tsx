@@ -21,7 +21,7 @@ const projects = [
     category: "Strategy",
     image:
       // "public/images/Screenshot 2025-11-29 104302.png",
-      "public/images/WhatsApp Image 2025-11-23 at 8.09.34 PM.jpeg",
+      "/images/WhatsApp Image 2025-11-23 at 8.09.34 PM.jpeg",
       // "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=2071&auto=format&fit=crop",
     description: "Rebranding strategy and community growth campaign.",
     companyUrl: "https://safaribrew.com/",
@@ -42,7 +42,7 @@ const projects = [
     id: 4,
     title: "Rosa Mystica",
     category: "Content Creation",
-    image: "public/images/Screenshot 2025-11-29 091658.png",
+    image: "/images/Screenshot 2025-11-29 091658.png",
     description: "Pictures and clips showcase series for Website, Instagram and Facebook",
     companyUrl: "https://www.rmhsagulu.com/",
     logo: "https://www.rmhsagulu.com/images/RMHS.jpg",
@@ -126,7 +126,7 @@ const Portfolio = () => {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
+                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
                   <span className="text-stone-300 text-sm font-medium mb-2">
                     {project.category}
                   </span>

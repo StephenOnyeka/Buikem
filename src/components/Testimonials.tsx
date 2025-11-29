@@ -7,21 +7,21 @@ const testimonials = [
       "Working with Peter Chibuikem (Buikem) transformed our social presence completely. Our engagement has turned positive in just three months since his job!",
     author: "Nikhil Samdarshi",
     role: "Managing Director, Fiction Creatives",
-    image: "../public/images/Screenshot 2025-11-29 082527.png",
+    image: "/images/Screenshot 2025-11-29 082527.png",
   },
   {
     quote:
       "The strategic insight brought to the table was invaluable. Finally, we have a social media strategy that actually converts.",
     author: "OurPropertyNG",
     role: "RealEstate Software",
-    image: "../public/images/Screenshot 2025-11-29 082737.png",
+    image: "/images/Screenshot 2025-11-29 082737.png",
   },
   {
     quote:
       "Professional, creative, and data-driven. The best investment we've made for our prestigous college this year.",
     author: "Fr. Paul C.",
     role: "Manager, RMHSA",
-    image: "public/images/BeautyPlus_Fr copy.jpg",
+    image: "/images/BeautyPlus_Fr copy.jpg",
   },
 ];
 
